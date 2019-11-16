@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>554589634398-h1uhj06v7mou2q6344cg7gbucr7lnoak.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.554589634398-h1uhj06v7mou2q6344cg7gbucr7lnoak</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA2yCtMFQaf77vUEAd00OnmR2UZjYj9Yks</string>
+	<key>GCM_SENDER_ID</key>
+	<string>554589634398</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>calpoly.edu.csc.Deezy</string>
+	<key>PROJECT_ID</key>
+	<string>deezy-4def0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>deezy-4def0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:554589634398:ios:2ddd67b9ad0c7690f259cf</string>
+	<key>DATABASE_URL</key>
+	<string>https://deezy-4def0.firebaseio.com</string>
+</dict>
+</plist>

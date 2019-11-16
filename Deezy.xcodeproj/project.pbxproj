@@ -13,6 +13,8 @@
 		796B20532380661300FCA09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B20512380661300FCA09B /* Main.storyboard */; };
 		796B20552380661600FCA09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B20542380661600FCA09B /* Assets.xcassets */; };
 		796B20582380661600FCA09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B20562380661600FCA09B /* LaunchScreen.storyboard */; };
+		79B4B09F238066AC009F9C02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */; };
+		E0A98B601CA8988296F1AE5F /* Pods_Deezy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		796B20542380661600FCA09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		796B20572380661600FCA09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796B20592380661600FCA09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deezy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC724442BF1FD53E59A840D /* Pods-Deezy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deezy.release.xcconfig"; path = "Target Support Files/Pods-Deezy/Pods-Deezy.release.xcconfig"; sourceTree = "<group>"; };
+		B0FBCC454C506E909D64BB1B /* Pods-Deezy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deezy.debug.xcconfig"; path = "Target Support Files/Pods-Deezy/Pods-Deezy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A98B601CA8988296F1AE5F /* Pods_Deezy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF85B7F2848D9E3709A674F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBCC454C506E909D64BB1B /* Pods-Deezy.debug.xcconfig */,
+				AFC724442BF1FD53E59A840D /* Pods-Deezy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62DDBA7A75F6716B022BC2D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		796B203F2380661300FCA09B = {
 			isa = PBXGroup;
 			children = (
 				796B204A2380661300FCA09B /* Deezy */,
 				796B20492380661300FCA09B /* Products */,
+				0EF85B7F2848D9E3709A674F /* Pods */,
+				62DDBA7A75F6716B022BC2D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +89,7 @@
 				796B20512380661300FCA09B /* Main.storyboard */,
 				796B20542380661600FCA09B /* Assets.xcassets */,
 				796B20562380661600FCA09B /* LaunchScreen.storyboard */,
+				79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */,
 				796B20592380661600FCA09B /* Info.plist */,
 			);
 			path = Deezy;
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 796B205C2380661600FCA09B /* Build configuration list for PBXNativeTarget "Deezy" */;
 			buildPhases = (
+				7E36994423DB73BCF3578AA3 /* [CP] Check Pods Manifest.lock */,
 				796B20442380661300FCA09B /* Sources */,
 				796B20452380661300FCA09B /* Frameworks */,
 				796B20462380661300FCA09B /* Resources */,
+				CC877F05BDDDCB0BAE9A5CCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				796B20582380661600FCA09B /* LaunchScreen.storyboard in Resources */,
+				79B4B09F238066AC009F9C02 /* GoogleService-Info.plist in Resources */,
 				796B20552380661600FCA09B /* Assets.xcassets in Resources */,
 				796B20532380661300FCA09B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E36994423DB73BCF3578AA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deezy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC877F05BDDDCB0BAE9A5CCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deezy/Pods-Deezy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deezy/Pods-Deezy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deezy/Pods-Deezy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		796B20442380661300FCA09B /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		796B205D2380661600FCA09B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FBCC454C506E909D64BB1B /* Pods-Deezy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		796B205E2380661600FCA09B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC724442BF1FD53E59A840D /* Pods-Deezy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
