@@ -3,21 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79243E242380812700A5ED1E /* AppleMusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E232380812700A5ED1E /* AppleMusicManager.swift */; };
+		79243E26238081AA00A5ED1E /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E25238081AA00A5ED1E /* MediaItem.swift */; };
+		79243E282380828200A5ED1E /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E272380828200A5ED1E /* Artwork.swift */; };
+		79243E2A238082AF00A5ED1E /* SerializationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E29238082AF00A5ED1E /* SerializationError.swift */; };
+		79243E2C2380835E00A5ED1E /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E2B2380835E00A5ED1E /* ImageCacheManager.swift */; };
+		79243E2E2380901D00A5ED1E /* AppleMusicRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E2D2380901D00A5ED1E /* AppleMusicRequestFactory.swift */; };
+		79243E302380943900A5ED1E /* JSONKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E2F2380943900A5ED1E /* JSONKeys.swift */; };
+		79243E322380A23400A5ED1E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243E312380A23400A5ED1E /* LoginViewController.swift */; };
+		794D70882380778600E3122B /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D70872380778600E3122B /* MusicManager.swift */; };
+		794D708A2380782E00E3122B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D70892380782E00E3122B /* Song.swift */; };
 		796B204C2380661300FCA09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B204B2380661300FCA09B /* AppDelegate.swift */; };
 		796B204E2380661300FCA09B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B204D2380661300FCA09B /* SceneDelegate.swift */; };
 		796B20502380661300FCA09B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B204F2380661300FCA09B /* ViewController.swift */; };
 		796B20532380661300FCA09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B20512380661300FCA09B /* Main.storyboard */; };
 		796B20552380661600FCA09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B20542380661600FCA09B /* Assets.xcassets */; };
 		796B20582380661600FCA09B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B20562380661600FCA09B /* LaunchScreen.storyboard */; };
+		797B236A2380B05E006FAE72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B23692380B05E006FAE72 /* SignUpViewController.swift */; };
+		797B236C2380B0CF006FAE72 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B236B2380B0CF006FAE72 /* FeedViewController.swift */; };
+		797B236E2380C120006FAE72 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B236D2380C120006FAE72 /* UserViewController.swift */; };
 		79B4B09F238066AC009F9C02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */; };
 		E0A98B601CA8988296F1AE5F /* Pods_Deezy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79243E232380812700A5ED1E /* AppleMusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicManager.swift; sourceTree = "<group>"; };
+		79243E25238081AA00A5ED1E /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		79243E272380828200A5ED1E /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		79243E29238082AF00A5ED1E /* SerializationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializationError.swift; sourceTree = "<group>"; };
+		79243E2B2380835E00A5ED1E /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		79243E2D2380901D00A5ED1E /* AppleMusicRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicRequestFactory.swift; sourceTree = "<group>"; };
+		79243E2F2380943900A5ED1E /* JSONKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONKeys.swift; sourceTree = "<group>"; };
+		79243E312380A23400A5ED1E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		794D70872380778600E3122B /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		794D70892380782E00E3122B /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		796B20482380661300FCA09B /* Deezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		796B204B2380661300FCA09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		796B204D2380661300FCA09B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +49,9 @@
 		796B20542380661600FCA09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		796B20572380661600FCA09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796B20592380661600FCA09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797B23692380B05E006FAE72 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		797B236B2380B0CF006FAE72 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		797B236D2380C120006FAE72 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deezy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC724442BF1FD53E59A840D /* Pods-Deezy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deezy.release.xcconfig"; path = "Target Support Files/Pods-Deezy/Pods-Deezy.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,7 +76,6 @@
 				B0FBCC454C506E909D64BB1B /* Pods-Deezy.debug.xcconfig */,
 				AFC724442BF1FD53E59A840D /* Pods-Deezy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -62,9 +87,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		79243E332380A3D700A5ED1E /* ViewConcrollers */ = {
+			isa = PBXGroup;
+			children = (
+				79243E312380A23400A5ED1E /* LoginViewController.swift */,
+				797B23692380B05E006FAE72 /* SignUpViewController.swift */,
+				797B236B2380B0CF006FAE72 /* FeedViewController.swift */,
+				797B236D2380C120006FAE72 /* UserViewController.swift */,
+			);
+			path = ViewConcrollers;
+			sourceTree = "<group>";
+		};
+		794D70862380774000E3122B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				794D70872380778600E3122B /* MusicManager.swift */,
+				794D70892380782E00E3122B /* Song.swift */,
+				79243E232380812700A5ED1E /* AppleMusicManager.swift */,
+				79243E25238081AA00A5ED1E /* MediaItem.swift */,
+				79243E2B2380835E00A5ED1E /* ImageCacheManager.swift */,
+				79243E272380828200A5ED1E /* Artwork.swift */,
+				79243E29238082AF00A5ED1E /* SerializationError.swift */,
+				79243E2D2380901D00A5ED1E /* AppleMusicRequestFactory.swift */,
+				79243E2F2380943900A5ED1E /* JSONKeys.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		796B203F2380661300FCA09B = {
 			isa = PBXGroup;
 			children = (
+				79243E332380A3D700A5ED1E /* ViewConcrollers */,
+				794D70862380774000E3122B /* Models */,
 				796B204A2380661300FCA09B /* Deezy */,
 				796B20492380661300FCA09B /* Products */,
 				0EF85B7F2848D9E3709A674F /* Pods */,
@@ -211,9 +265,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79243E2A238082AF00A5ED1E /* SerializationError.swift in Sources */,
+				797B236E2380C120006FAE72 /* UserViewController.swift in Sources */,
+				79243E26238081AA00A5ED1E /* MediaItem.swift in Sources */,
+				79243E2C2380835E00A5ED1E /* ImageCacheManager.swift in Sources */,
 				796B20502380661300FCA09B /* ViewController.swift in Sources */,
+				79243E282380828200A5ED1E /* Artwork.swift in Sources */,
+				794D70882380778600E3122B /* MusicManager.swift in Sources */,
+				79243E242380812700A5ED1E /* AppleMusicManager.swift in Sources */,
+				797B236C2380B0CF006FAE72 /* FeedViewController.swift in Sources */,
+				79243E302380943900A5ED1E /* JSONKeys.swift in Sources */,
+				797B236A2380B05E006FAE72 /* SignUpViewController.swift in Sources */,
+				79243E2E2380901D00A5ED1E /* AppleMusicRequestFactory.swift in Sources */,
 				796B204C2380661300FCA09B /* AppDelegate.swift in Sources */,
 				796B204E2380661300FCA09B /* SceneDelegate.swift in Sources */,
+				79243E322380A23400A5ED1E /* LoginViewController.swift in Sources */,
+				794D708A2380782E00E3122B /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

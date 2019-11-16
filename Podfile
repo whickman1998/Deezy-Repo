@@ -8,4 +8,6 @@ target 'Deezy' do
   # Pods for Deezy
   pod 'Firebase/Analytics'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'SwiftJWT'
 end
