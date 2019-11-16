@@ -1,0 +1,6 @@
+framework module Pods_Deezy {
+  umbrella header "Pods-Deezy-umbrella.h"
+
+  export *
+  module * { export * }
+}
