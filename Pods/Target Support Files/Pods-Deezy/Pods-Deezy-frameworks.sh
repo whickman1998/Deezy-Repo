@@ -161,12 +161,28 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BlueCryptor/Cryptor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BlueECC/CryptorECC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BlueRSA/CryptorRSA.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KituraContracts/KituraContracts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LoggerAPI/LoggerAPI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Logging/Logging.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftJWT/SwiftJWT.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BlueCryptor/Cryptor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BlueECC/CryptorECC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BlueRSA/CryptorRSA.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KituraContracts/KituraContracts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LoggerAPI/LoggerAPI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Logging/Logging.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftJWT/SwiftJWT.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
