@@ -27,6 +27,7 @@
 		797B236C2380B0CF006FAE72 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B236B2380B0CF006FAE72 /* FeedViewController.swift */; };
 		797B236E2380C120006FAE72 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B236D2380C120006FAE72 /* UserViewController.swift */; };
 		79B4B09F238066AC009F9C02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */; };
+		C6944E692380CA08009566EB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6944E682380CA08009566EB /* SearchViewController.swift */; };
 		E0A98B601CA8988296F1AE5F /* Pods_Deezy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,15 @@
 		9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deezy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC724442BF1FD53E59A840D /* Pods-Deezy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deezy.release.xcconfig"; path = "Target Support Files/Pods-Deezy/Pods-Deezy.release.xcconfig"; sourceTree = "<group>"; };
 		B0FBCC454C506E909D64BB1B /* Pods-Deezy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deezy.debug.xcconfig"; path = "Target Support Files/Pods-Deezy/Pods-Deezy.debug.xcconfig"; sourceTree = "<group>"; };
+		C6944E682380CA08009566EB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C6944E7B2380E824009566EB /* deezyWhiteText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezyWhiteText.png; sourceTree = "<group>"; };
+		C6944E7C2380E824009566EB /* deezyTextTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezyTextTransparent.png; sourceTree = "<group>"; };
+		C6944E7D2380E824009566EB /* deezylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezylogo.png; sourceTree = "<group>"; };
+		C6944E7E2380E824009566EB /* deezyPhonoTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezyPhonoTransparent.png; sourceTree = "<group>"; };
+		C6944E7F2380E824009566EB /* deezyTextBabyBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezyTextBabyBlue.png; sourceTree = "<group>"; };
+		C6944E802380E824009566EB /* deezyBlackText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezyBlackText.png; sourceTree = "<group>"; };
+		C6944E812380E824009566EB /* deezynoteBlueWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezynoteBlueWhite.png; sourceTree = "<group>"; };
+		C6944E822380E824009566EB /* deezyNoteBlueBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deezyNoteBlueBlack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 				797B23692380B05E006FAE72 /* SignUpViewController.swift */,
 				797B236B2380B0CF006FAE72 /* FeedViewController.swift */,
 				797B236D2380C120006FAE72 /* UserViewController.swift */,
+				C6944E682380CA08009566EB /* SearchViewController.swift */,
 			);
 			path = ViewConcrollers;
 			sourceTree = "<group>";
@@ -117,6 +128,7 @@
 		796B203F2380661300FCA09B = {
 			isa = PBXGroup;
 			children = (
+				C6944E7A2380E803009566EB /* Images */,
 				79243E332380A3D700A5ED1E /* ViewConcrollers */,
 				794D70862380774000E3122B /* Models */,
 				796B204A2380661300FCA09B /* Deezy */,
@@ -147,6 +159,21 @@
 				796B20592380661600FCA09B /* Info.plist */,
 			);
 			path = Deezy;
+			sourceTree = "<group>";
+		};
+		C6944E7A2380E803009566EB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C6944E802380E824009566EB /* deezyBlackText.png */,
+				C6944E7D2380E824009566EB /* deezylogo.png */,
+				C6944E822380E824009566EB /* deezyNoteBlueBlack.png */,
+				C6944E812380E824009566EB /* deezynoteBlueWhite.png */,
+				C6944E7E2380E824009566EB /* deezyPhonoTransparent.png */,
+				C6944E7F2380E824009566EB /* deezyTextBabyBlue.png */,
+				C6944E7C2380E824009566EB /* deezyTextTransparent.png */,
+				C6944E7B2380E824009566EB /* deezyWhiteText.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +295,7 @@
 				79243E2A238082AF00A5ED1E /* SerializationError.swift in Sources */,
 				797B236E2380C120006FAE72 /* UserViewController.swift in Sources */,
 				79243E26238081AA00A5ED1E /* MediaItem.swift in Sources */,
+				C6944E692380CA08009566EB /* SearchViewController.swift in Sources */,
 				79243E2C2380835E00A5ED1E /* ImageCacheManager.swift in Sources */,
 				796B20502380661300FCA09B /* ViewController.swift in Sources */,
 				79243E282380828200A5ED1E /* Artwork.swift in Sources */,

@@ -11,6 +11,7 @@ import FirebaseAuth
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var deezytext: UIImageView!
     private var username = ""
     private var password = ""
     
