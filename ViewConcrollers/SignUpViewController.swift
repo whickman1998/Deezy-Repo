@@ -44,6 +44,11 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
                     NSLog("\(authResult!)")
                     Auth.auth().signIn(withEmail: self.username, password: self.password, completion: { [weak self] user, error in
                         guard let strongSelf = self else { return }
+                        guard let user = user else {
+                            NSLog("Yikes")
+                        }
+                        Profile.user.uid = user.user.uid
+                        DatabaseManager.uploadUser(uid: user.user.uid)
                         strongSelf.performSegue(withIdentifier: "signupsucc", sender: nil)
                     })
                 }
