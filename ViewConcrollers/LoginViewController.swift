@@ -40,7 +40,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 strongSelf.pField.text = ""
             }
             else {
-                strongSelf.performSegue(withIdentifier: "login", sender: nil)
+                if let user = user {
+                    Profile.user = User(uid: user.user.uid, name: strongSelf.username, songid: "900032829")
+                    Profile.user!.uid = user.user.uid
+                    strongSelf.performSegue(withIdentifier: "login", sender: nil)
+                }
             }
         })
     }

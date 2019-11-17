@@ -30,6 +30,7 @@ class User {
         appleMusicManager.performAppleMusicCatalogSearchWithIdentifier(with: songid, countryCode: authorizationManager!.cloudServiceStorefrontCountryCode, completion: { [weak self] (searchResults, error) in
             guard error == nil else {
                 NSLog("rip L")
+                return
             }
                                                     
             self?.mediaItem = searchResults

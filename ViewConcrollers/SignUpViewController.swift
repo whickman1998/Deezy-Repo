@@ -46,9 +46,11 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
                         guard let strongSelf = self else { return }
                         guard let user = user else {
                             NSLog("Yikes")
+                            return
                         }
-                        Profile.user.uid = user.user.uid
-                        DatabaseManager.uploadUser(uid: user.user.uid)
+                        Profile.user = User(uid: user.user.uid, name: strongSelf.username, songid: "900032829")
+                        Profile.user!.uid = user.user.uid
+                        DatabaseManager.uploadUser(uid: user.user.uid, name: strongSelf.username, songid: "900032829")
                         strongSelf.performSegue(withIdentifier: "signupsucc", sender: nil)
                     })
                 }

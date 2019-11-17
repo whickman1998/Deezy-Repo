@@ -31,6 +31,7 @@
 		797B23762380C819006FAE72 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B23752380C819006FAE72 /* DatabaseManager.swift */; };
 		797B23782380D353006FAE72 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B23772380D353006FAE72 /* FeedTableViewCell.swift */; };
 		797B237A2380E70D006FAE72 /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B23792380E70D006FAE72 /* AuthorizationManager.swift */; };
+		797B237C2380F1F4006FAE72 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B237B2380F1F4006FAE72 /* MusicPlayerViewController.swift */; };
 		79B4B09F238066AC009F9C02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */; };
 		E0A98B601CA8988296F1AE5F /* Pods_Deezy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		797B23752380C819006FAE72 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		797B23772380D353006FAE72 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		797B23792380E70D006FAE72 /* AuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
+		797B237B2380F1F4006FAE72 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		79B4B09E238066AC009F9C02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9AA07A90EE6C929534E73B10 /* Pods_Deezy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deezy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC724442BF1FD53E59A840D /* Pods-Deezy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deezy.release.xcconfig"; path = "Target Support Files/Pods-Deezy/Pods-Deezy.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				797B236B2380B0CF006FAE72 /* FeedViewController.swift */,
 				797B236D2380C120006FAE72 /* UserViewController.swift */,
 				797B23772380D353006FAE72 /* FeedTableViewCell.swift */,
+				797B237B2380F1F4006FAE72 /* MusicPlayerViewController.swift */,
 			);
 			path = ViewConcrollers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				79243E282380828200A5ED1E /* Artwork.swift in Sources */,
 				794D70882380778600E3122B /* MusicManager.swift in Sources */,
 				797B23742380C592006FAE72 /* Profile.swift in Sources */,
+				797B237C2380F1F4006FAE72 /* MusicPlayerViewController.swift in Sources */,
 				797B23722380C4D9006FAE72 /* User.swift in Sources */,
 				797B23782380D353006FAE72 /* FeedTableViewCell.swift in Sources */,
 				79243E242380812700A5ED1E /* AppleMusicManager.swift in Sources */,

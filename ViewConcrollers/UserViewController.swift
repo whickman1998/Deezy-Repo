@@ -10,11 +10,27 @@ import UIKit
 
 class UserViewController: UIViewController {
     
+    var user: User!
+    
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var artistLabel: UILabel!
+    
+    var imageCacheManager = ImageCacheManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        nameLabel.text = user.name
+        let imageURL = user.mediaItem!.artwork.imageURL(size: imageView.frame.size)
+        imageView.image = imageCacheManager.cachedImage(url: imageURL)
+        titleLabel.text = user.mediaItem!.name
+        artistLabel.text = user.mediaItem!.artistName
+    }
 
     /*
     // MARK: - Navigation

@@ -9,5 +9,5 @@
 import Foundation
 
 class Profile {
-    static var user: User
+    static var user: User? = nil
 }

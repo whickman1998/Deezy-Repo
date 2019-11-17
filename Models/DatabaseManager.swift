@@ -45,7 +45,19 @@ class DatabaseManager {
         let userRef = ref.reference(withPath: "Users").child(uid)
         userRef.observeSingleEvent(of: .value, with: { (snapshot) in
             if let friendsSS = snapshot.value! as? [String:Any] {
-                completion(true, friendsSS["friends"] as! [String])
+                var result = [User]()
+                if let fri = friendsSS["friends"] as? [String] {
+                    for string in fri {
+                        getUser(uid: string, completion: { (user) -> Void in
+                            if user != nil {
+                                result.append(user!)
+                                if result.count == fri.count {
+                                    completion(true, result)
+                                }
+                            }
+                        })
+                    }
+                }
             }
             else {
                 NSLog("could not get friends")
